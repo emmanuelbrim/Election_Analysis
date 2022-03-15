@@ -35,10 +35,13 @@ _**Example of code used to generate total votes per county**_
 
 The Percentage of votes per county was determined by dividing the total votes per county(ie the values in the county_votes dictionary) by the total votes cast in the election and multipling it by 100.
 The Votes_percentage variable was assigned with the results of this mathematical operation to provide the percentage of votes per county.
+
+
 _**Example of code to generate percentage votes per county**_
 
 
 An f'string statement was printed to terminal to show results.
+
 
 _**Example of F'string statement and terminal results of script**_
 
