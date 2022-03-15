@@ -9,13 +9,15 @@ The purpose of this project was to develop a system using python, that will anal
 ## Election Audit Results
 
 * Total Votes Cast
+
 The congressional election under review covered votes from electorates in 3 counties in Colorado, namely; Arapahoe, Denver and Jefferson. The analysis of the election      data presented in comma separated value (CSV) file showed that a total of **369711**votes was the total number of votes that was recorded for this election.
 This figure was arrived at by creating an inital total_votes varable to hold data whiles looping through the total number of rows in the CSV file after the header row was eliminated. The final total_votes value showed the results of each incremnetal after each loop.
 
 _**Example of code used to generate the total_votes of the election_**      
 
 
-###* **Total Votes and Percentage of Votes per County**
+* Total Votes and Percentage of Votes per County
+
 One request from the Election Board was to generate the total number of votes cast in each county and the percentage of that to the overall votes cast for the election.
 To honor this, two data structures; "county_list" and "county_votes" dictionary were created to hold data. 
 A script to extract all county names was added under the For loop "row in reader:" by assiging the second index to the variable "county_name".
@@ -33,14 +35,14 @@ An f'string statement was printed to terminal to show results.
 _**Example of F'string statement and terminal results of script**_
 
 
-###* **County with Largest Voter Turnout**
+* County with Largest Voter Turnout
 To find the county with the largest turnout required the introduction of two new variables; "winning_county count" and "winning_county".
 Next a decision statement was created to determine the winning county and its vote count.
 The results printed to terminal showed that Denever had the largest turnout with 306,855 votes.
 _**Example of decision statement and terminal results of largest turnout county**_
 
 
-###* **Total Candidate Votes and Percentage**
+* Total Candidate Votes and Percentage
 An initail candidate_votes dictionary and Candidate_options list was created to hold data.
 All candidate names was extracted from the third index after looping through all the rows in the CSV file.
 Next, an if statement is introduced to generate candidate votes by increasing the candidate_votes by 1.
@@ -51,7 +53,7 @@ A for loop was created to loop through candidate_votes and the vote percentage v
 _**Example of code to generate percentage votes per candidate*_
 
 
-###* **Winning Candidate**
+* Winning Candidate
 From the analysis of the data set it was revealed that Diana DeGette won the election with 272,892 being 73.8% of the total votes cast.
 An if statement was used to generate winning_count and winning_percentage form the candidates_votes and vote_percentage respectively.
 
