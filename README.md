@@ -72,18 +72,11 @@ _Example of decision statement and terminal results of largest turnout county_
 
 * **Total Votes per Candidate and Percentage**
 
-An initail candidate_votes dictionary and Candidate_options list was created to hold data.
+A similar outline like that used in generating Total votes per county was used to provide the total candidate votes. 
+An initail candidate_votes dictionary and candidate_options list was created to hold data.
 All candidate names was extracted from the third index after looping through all the rows in the CSV file.
 Next, an if statement is introduced to generate candidate votes by increasing the candidate_votes by 1.
-
-_Example of code used to generate total votes per candidate_
-
-
-
-
-
-A for loop was created to loop through candidate_votes and the vote percentage variable assigned with the results of dividing the candidate_votes by total votes and multiply by 100.
-
+A for loop was then created to loop through candidate_votes and the vote percentage variable assigned with the results of dividing the candidate_votes by total votes and multiply by 100.
 
 _Example of code to generate percentage votes per candidate_
 
