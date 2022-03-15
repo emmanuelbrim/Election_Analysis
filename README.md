@@ -14,7 +14,7 @@ The congressional election under review covered votes from electorates in 3 coun
 This figure was arrived at by creating an inital total_votes varable to hold data whiles looping through the total number of rows in the CSV file after the header row was eliminated. The final total_votes value showed the results of each incremnetal after each loop.
 
 
-_Example of code used to generate the total_votes of the election _
+_*Example of code used to generate the total_votes of the election*_
 
 
 
