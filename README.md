@@ -41,7 +41,7 @@ An f'string statement was then printed to terminal to show results.
 
 _Example of code to generate percentage votes per county_
 
-
+![Alt text](https://github.com/emmanuelbrim/Election_Analysis/blob/main/Resources/votes%20per%20county.PNG)
 
 
 
