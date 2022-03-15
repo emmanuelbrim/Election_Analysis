@@ -14,7 +14,7 @@ The congressional election under review covered votes from electorates in 3 coun
 This figure was arrived at by creating an inital total_votes varable to hold data whiles looping through the total number of rows in the CSV file after the header row was eliminated. The final total_votes value showed the results of each incremnetal after each loop.
 
 
-_**Example of code used to generate the total_votes of the election_**      
+**_**Example of code used to generate the total_votes of the election_** **     
 
 
 
@@ -28,7 +28,7 @@ Next an if statement was introduced to help obtain the values for the county lis
 The final value for county_votes was based on increasing it by 1 after each loop.
 
 
-_**Example of code used to generate total votes per county**_
+**_**Example of code used to generate total votes per county**_**
 
 
 
@@ -37,13 +37,13 @@ The Percentage of votes per county was determined by dividing the total votes pe
 The Votes_percentage variable was assigned with the results of this mathematical operation to provide the percentage of votes per county.
 
 
-_**Example of code to generate percentage votes per county**_
+**_**Example of code to generate percentage votes per county**_**********
 
 
 An f'string statement was printed to terminal to show results.
 
 
-_**Example of F'string statement and terminal results of script**_
+**_**Example of F'string statement and terminal results of script**_**
 
 
 
@@ -56,7 +56,7 @@ Next a decision statement was created to determine the winning county and its vo
 The results printed to terminal showed that Denever had the largest turnout with 306,855 votes.
 
 
-_**Example of decision statement and terminal results of largest turnout county**_
+**_**Example of decision statement and terminal results of largest turnout county**_**
 
 
 * **Total Votes per Candidate and Percentage**
@@ -69,7 +69,7 @@ _**Example of code used to generate total votes per candidate**_
 A for loop was created to loop through candidate_votes and the vote percentage variable assigned with the results of dividing the candidate_votes by total votes and multiply by 100.
 
 
-_**Example of code to generate percentage votes per candidate*_
+**_**Example of code to generate percentage votes per candidate*_**
 
 
 
@@ -80,7 +80,7 @@ From the analysis of the data set it was revealed that Diana DeGette won the ele
 An if statement was used to generate winning_count and winning_percentage form the candidates_votes and vote_percentage respectively.
 
 
-_**Example of code to generate winning Candidate*_
+**_**Example of code to generate winning Candidate*_**
 
  
 ![Alt text](https://github.com/emmanuelbrim/Stock-analysis/blob/main/Resources/VBA_Challenge_2018.PNG)
