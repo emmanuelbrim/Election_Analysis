@@ -78,7 +78,6 @@ Next, an if statement is introduced to generate candidate votes by increasing th
 
 _Example of code used to generate total votes per candidate_
 
-![Alt text](https://github.com/emmanuelbrim/Election_Analysis/blob/main/Resources/winning%20candidate.PNG)
 
 
 
@@ -99,7 +98,8 @@ An if statement was used to generate winning_count and winning_percentage form t
 _Example of code to generate winning Candidate_
 
  
-![Alt text]
+![Alt text](https://github.com/emmanuelbrim/Election_Analysis/blob/main/Resources/winning%20candidate.PNG)
+
 ## Election Audit Summary
 - The advantages of refactoring code includes fewer bugs, faster execution and easy to read whiles the time involved in refactoring and the tendency of making mistakes serve as its cons.
 
