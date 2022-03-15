@@ -8,7 +8,7 @@ The purpose of this project was to develop a system using python, that will anal
 
 ## Election Audit Results
 
-###* **Total Votes Cast**
+###* Total Votes Cast
 The congressional election under review covered votes from electorates in 3 counties in Colorado, namely; Arapahoe, Denver and Jefferson. The analysis of the election      data presented in comma separated value (CSV) file showed that a total of **369711**votes was the total number of votes that was recorded for this election.
 This figure was arrived at by creating an inital total_votes varable to hold data whiles looping through the total number of rows in the CSV file after the header row was eliminated. The final total_votes value showed the results of each incremnetal after each loop.
 
