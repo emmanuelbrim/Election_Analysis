@@ -35,7 +35,7 @@ An f'string statement was printed to terminal to show results.
 _**Example of F'string statement and terminal results of script**_
 
 
-*** Example of code to generate percentage votes per candidate**
+* **Largest Turnout County**
 
 To find the county with the largest turnout required the introduction of two new variables; "winning_county count" and "winning_county".
 Next a decision statement was created to determine the winning county and its vote count.
@@ -43,7 +43,7 @@ The results printed to terminal showed that Denever had the largest turnout with
 _**Example of decision statement and terminal results of largest turnout county**_
 
 
-* _**Example of code to generate percentage votes per candidate*_
+* **Total Votes per Candidate and Percentage**
 
 An initail candidate_votes dictionary and Candidate_options list was created to hold data.
 All candidate names was extracted from the third index after looping through all the rows in the CSV file.
@@ -55,12 +55,12 @@ A for loop was created to loop through candidate_votes and the vote percentage v
 _**Example of code to generate percentage votes per candidate*_
 
 
-* _**Example of code to generate percentage votes per candidate*_
+* **Winning Candidate**
 
 From the analysis of the data set it was revealed that Diana DeGette won the election with 272,892 being 73.8% of the total votes cast.
 An if statement was used to generate winning_count and winning_percentage form the candidates_votes and vote_percentage respectively.
 
-_**Example of code to generatewinning Candidate*_
+_**Example of code to generate winning Candidate*_
 
  
 ![Alt text](https://github.com/emmanuelbrim/Stock-analysis/blob/main/Resources/VBA_Challenge_2018.PNG)
