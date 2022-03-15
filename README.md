@@ -35,7 +35,7 @@ An f'string statement was printed to terminal to show results.
 _**Example of F'string statement and terminal results of script**_
 
 
-* _**Example of code to generate percentage votes per candidate*_
+*** Example of code to generate percentage votes per candidate**
 
 To find the county with the largest turnout required the introduction of two new variables; "winning_county count" and "winning_county".
 Next a decision statement was created to determine the winning county and its vote count.
