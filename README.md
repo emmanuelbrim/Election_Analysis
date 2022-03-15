@@ -41,11 +41,14 @@ An f'string statement was then printed to terminal to show results.
 
 _Example of code to generate percentage votes per county_
 
-![Alt text](https://github.com/emmanuelbrim/Election_Analysis/blob/main/Resources/F%20string%20county%20votes%20and%20percentage.PNG)
+
 
 
 
 _Example of F'string statement and terminal results of script_
+
+![Alt text](https://github.com/emmanuelbrim/Election_Analysis/blob/main/Resources/F%20string%20county%20votes%20and%20percentage.PNG)
+
 
 ![Alt text](https://github.com/emmanuelbrim/Election_Analysis/blob/main/Resources/terminal%20view.PNG)
 
