@@ -80,7 +80,7 @@ A for loop was then created to loop through candidate_votes and the vote percent
 
 _Example of code to generate percentage votes per candidate_
 
-
+![Alt text](https://github.com/emmanuelbrim/Election_Analysis/blob/main/Resources/percentage%20votes%20per%20candidate.PNG)
 
 
 * **Winning Candidate**
