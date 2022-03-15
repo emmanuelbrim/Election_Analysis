@@ -16,7 +16,7 @@ This figure was arrived at by creating an inital total_votes varable to hold dat
 _**Example of code used to generate the total_votes of the election_**      
 
 
-* Total Votes and Percentage of Votes per County
+* **Total Votes and Percentage of Votes per County**
 
 One request from the Election Board was to generate the total number of votes cast in each county and the percentage of that to the overall votes cast for the election.
 To honor this, two data structures; "county_list" and "county_votes" dictionary were created to hold data. 
@@ -35,7 +35,7 @@ An f'string statement was printed to terminal to show results.
 _**Example of F'string statement and terminal results of script**_
 
 
-* County with Largest Voter Turnout
+* _**Example of code to generate percentage votes per candidate*_
 
 To find the county with the largest turnout required the introduction of two new variables; "winning_county count" and "winning_county".
 Next a decision statement was created to determine the winning county and its vote count.
@@ -43,7 +43,7 @@ The results printed to terminal showed that Denever had the largest turnout with
 _**Example of decision statement and terminal results of largest turnout county**_
 
 
-* Total Candidate Votes and Percentage
+* _**Example of code to generate percentage votes per candidate*_
 
 An initail candidate_votes dictionary and Candidate_options list was created to hold data.
 All candidate names was extracted from the third index after looping through all the rows in the CSV file.
@@ -55,7 +55,7 @@ A for loop was created to loop through candidate_votes and the vote percentage v
 _**Example of code to generate percentage votes per candidate*_
 
 
-* Winning Candidate
+* _**Example of code to generate percentage votes per candidate*_
 
 From the analysis of the data set it was revealed that Diana DeGette won the election with 272,892 being 73.8% of the total votes cast.
 An if statement was used to generate winning_count and winning_percentage form the candidates_votes and vote_percentage respectively.
