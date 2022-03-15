@@ -36,6 +36,7 @@ _**Example of F'string statement and terminal results of script**_
 
 
 * County with Largest Voter Turnout
+
 To find the county with the largest turnout required the introduction of two new variables; "winning_county count" and "winning_county".
 Next a decision statement was created to determine the winning county and its vote count.
 The results printed to terminal showed that Denever had the largest turnout with 306,855 votes.
@@ -43,6 +44,7 @@ _**Example of decision statement and terminal results of largest turnout county*
 
 
 * Total Candidate Votes and Percentage
+
 An initail candidate_votes dictionary and Candidate_options list was created to hold data.
 All candidate names was extracted from the third index after looping through all the rows in the CSV file.
 Next, an if statement is introduced to generate candidate votes by increasing the candidate_votes by 1.
@@ -54,6 +56,7 @@ _**Example of code to generate percentage votes per candidate*_
 
 
 * Winning Candidate
+
 From the analysis of the data set it was revealed that Diana DeGette won the election with 272,892 being 73.8% of the total votes cast.
 An if statement was used to generate winning_count and winning_percentage form the candidates_votes and vote_percentage respectively.
 
