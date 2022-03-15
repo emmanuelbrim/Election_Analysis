@@ -94,8 +94,7 @@ _Example of code to generate winning Candidate_
 ![Alt text](https://github.com/emmanuelbrim/Election_Analysis/blob/main/Resources/winning%20candidate.PNG)
 
 ## Election Audit Summary
-- The advantages of refactoring code includes fewer bugs, faster execution and easy to read whiles the time involved in refactoring and the tendency of making mistakes serve as its cons.
-
-- Much time was invested in restructing the script though the runtime of the original VBA script was improved after refactoring. 
+- The Resources folder can be used to hold data set from other elections and modifing the path to reflect that particular file.
+- Likewise. 
 
 
