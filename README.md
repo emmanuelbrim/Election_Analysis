@@ -4,14 +4,22 @@ _An Audit of Election Results with Python_
 
 ## Overview of the Project
 Every group have established way by which individuals are selected to represent it in matters of concern. Notable among these ways is Universal Adult suffrage, and its within this contest of elections specifically the popular vote system that this project worked on.
-The purpose of this project was to develop a system using python, that will analyze recent congressional election results of 3 candidates and provide valid information on which the Colorado Board of Elections will act. 
+The purpose of this project was to develop a system using python, that will analyze recent congressional election results of 3 candidates and provide valid information on which the Colorado Board of Elections will act.
+The key among the requirments for the audit was to:
+
+- Produce the total number of votes cast.
+- Generate a list of all candidates.
+- Determine the total number of votes for each candidate and the percentage of total votes per candiate.
+- Find the Winner of the election
+- Calculate the voter turnout per county and what percentage of total votes that is.
+- Produce the county that obtained the highest voter turnout.
 
 ## Election Audit Results
 
 * **Total Votes Cast**
 
 The congressional election under review covered votes from electorates in 3 counties in Colorado, namely; Arapahoe, Denver and Jefferson. 
-The analysis of the election data presented in comma separated value (CSV) file showed that a total of **369711**votes was cast during this election.
+The analysis of the election data presented in comma separated value (CSV) file showed that a total of **369711** votes was cast during this election.
 This figure was arrived at by creating an inital total_votes variable to hold data. Then a for loop was introduced to loop through the total number of rows in the CSV file after the header row was eliminated. The final total_votes value showed the results of increasing it value by 1 after each loop.
 
 
@@ -97,7 +105,8 @@ _Example of code to generate winning Candidate_
 ![Alt text](https://github.com/emmanuelbrim/Election_Analysis/blob/main/Resources/winning%20candidate.PNG)
 
 ## Election Audit Summary
-- The Resources folder can be used to hold data set from other elections and modifing the path to reflect that particular file.
-- 
+Though the analysis done in this project answered the request of the Election Commission, it must be stated that with some modifications to the script used a more indepth information could be generated from this audit. 
+The same Resources folder used here can hold data from other elections and with a change in the variables of the script to reflect that particular dataset, produce a whole new output upon request. On the other hand a decision statement could be introduced in the original script to generate votes per candidate in each county. This will tell how each candidate performed in each county. 
+ 
 
 
