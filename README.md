@@ -83,6 +83,9 @@ _Example of code to generate percentage votes per candidate_
 ![Alt text](https://github.com/emmanuelbrim/Election_Analysis/blob/main/Resources/percentage%20votes%20per%20candidate.PNG)
 
 
+![Alt text](https://github.com/emmanuelbrim/Election_Analysis/blob/main/Resources/terminal%20percentage%20vote%20per%20candidate.PNG)
+
+
 * **Winning Candidate**
 
 From the analysis of the data set it was revealed that Diana DeGette won the election with 272,892 votes being 73.8% of the total votes cast.
